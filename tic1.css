@@ -1,0 +1,88 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Patua One';
+}
+
+body {
+	background-color: #97aabd;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	padding: 0px;
+	margin: 10px auto;
+	background-color: #272727 ;
+}
+
+table tr td {
+	width: 80px;
+	height: 80px;
+	border: 1px solid #021452;
+	font-size: 30px;
+	text-align: center;
+}
+
+table tr td:hover {
+	background: #2c3531;
+	cursor: pointer;
+}
+.winner {
+	width: 240px;
+	height: 140px;
+	margin: 10px auto;
+	font-size: 60px;
+	text-align: center;
+}
+
+.winner span {
+	font-size: 40px;
+	display: block;
+	animation :font-size 5s;
+	animation-duration: 5s;
+	animation-delay:5s;
+	animation-iteration-count: infinite;
+}
+@keyframes font-size{
+	from {
+		font-size:40px;
+	}
+	to {
+		font-size: 60px;
+	}
+}
+
+#reload {
+	width: 240px;
+	height: 100px;
+	margin: 10px auto;
+	display: block;
+	border: none;
+	background-color: #272727;
+	font-size: 40px;
+}
+
+.table {
+   margin-top: 2rem;
+   text-align: center;
+}
+
+.table h1 {
+  font-size: 1rem;
+  text-align: center;
+   font-weight: bold;
+  
+  animation: glow 2s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+     from {
+      color: #fff;
+    text-shadow: 0 0 10px #00fff2, 0 0 20px #00fff2, 0 0 30px #00fff2, 0 0 40px #00fff2, 0 0 50px #00fff2, 0 0 60px #00fff2, 0 0 70px #00fff2, 0 0 90px #00fff2;
+  }
+  
+  to {
+     color: gray;
+    text-shadow: 0 0 20px #00fff2, 0 0 30px #00fff2, 0 0 40px #00fff2, 0 0 50px #00fff2, 0 0 60px #00fff2, 0 0 70px #00fff2, 0 0 80px #00fff2, 0 1 90px #00fff2;
+  }
+}
